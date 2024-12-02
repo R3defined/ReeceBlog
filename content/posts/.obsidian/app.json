@@ -1,4 +1,6 @@
 {
-  "attachmentFolderPath": "C:\\Users\\Hallm\\Documents\\Second Brain\\Posts",
-  "showUnsupportedFiles": true
+  "attachmentFolderPath": "./attachments",
+  "showUnsupportedFiles": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": ""
 }
