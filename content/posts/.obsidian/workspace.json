@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "00a3802d31fc968d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a17f3af984ec8785",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b785685f3e81c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My Blog.. Because Why Not.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My Blog.. Because Why Not"
+            }
+          },
+          {
+            "id": "a378c01abaa7b691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My Blog.. Because Why Not.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My Blog.. Because Why Not"
+            }
+          },
+          {
+            "id": "5fbf68ea68be3d53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My Blog.. Because Why Not.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "My Blog.. Because Why Not"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c5f75972a67f6cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cbacbcc795a424e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd9292b8fbc9d47d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "51392049507300c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0527cbcedef5f564",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cad64c5ab12f7bdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "301954769248b8c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e9562f013dc1005",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "My Blog.. Because Why Not.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for My Blog.. Because Why Not"
+            }
+          },
+          {
+            "id": "0e7b5a4750bccc4c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "My Blog.. Because Why Not.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from My Blog.. Because Why Not"
+            }
+          },
+          {
+            "id": "4def0538e682914d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "395107e0e6c54c11",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "My Blog.. Because Why Not.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of My Blog.. Because Why Not"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt/Decrypt": false
+    }
+  },
+  "active": "5fbf68ea68be3d53",
+  "lastOpenFiles": [
+    "images.jpg",
+    "Screenshot 2024-12-01 204857 1.png",
+    "Screenshot 2024-12-01 222726.png",
+    "a new note.md",
+    "23127ada-0c81-45c5-b006-fe2de23851ce.webp",
+    "My Blog.. Because Why Not.md",
+    "New folder",
+    "Screenshot 2024-12-01 204857.png",
+    "DALL·E 2024-12-01 20.46.04 - A conceptual visualization of a 'second brain' as a digital and organic fusion. The image features a human brain with interconnected glowing circuits .webp"
+  ]
+}
