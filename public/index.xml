@@ -21,7 +21,7 @@
 &lt;hr&gt;
 &lt;h4 id=&#34;the-power-of-a-second-brain&#34;&gt;The Power of a Second Brain&lt;/h4&gt;
 &lt;p&gt;Tiago Forte’s concept of a &amp;ldquo;second brain&amp;rdquo; is transformative. It emphasizes capturing, organizing, and distilling information so it’s always at your fingertips when you need it. NetworkChuck highlights a key takeaway: &lt;strong&gt;&amp;ldquo;Your mind is for having ideas, not holding them.&amp;rdquo;&lt;/strong&gt;
-!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Screenshot2024-12-012048571.png&#34;&gt;
+!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Screenshot%202024-12-01%20204857%201.png&#34;&gt;
 I’ve been using digital tools like Notion and Obsidian to manage my projects, tasks, and ideas. These tools already serve as my second brain, helping me stay organized and focused. Blogging is the natural next step—taking the distilled knowledge from my second brain and sharing it with the world.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;expressing-ideas-the-missing-link&#34;&gt;Expressing Ideas: The Missing Link&lt;/h4&gt;
@@ -30,7 +30,7 @@ I’ve been using digital tools like Notion and Obsidian to manage my projects, 
 &lt;hr&gt;
 &lt;h4 id=&#34;building-a-legacy&#34;&gt;Building a Legacy&lt;/h4&gt;
 &lt;p&gt;I’m not just starting this blog for the public; I’m doing it for my family, friends, and future generations. Blogging will help me document my journey, share my perspective, and leave behind something tangible. Whether it’s insights about tech, reflections on life as an entrepreneur, or personal interests like blockchain, fitness, and trading, my blog will serve as a dynamic record of who I am and what I value.&lt;/p&gt;
-&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Screenshot2024-12-01222726.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Screenshot%202024-12-01%20222726.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;inspired-by-networkchucks-technical-workflow&#34;&gt;Inspired by NetworkChuck’s Technical Workflow&lt;/h4&gt;
 &lt;p&gt;NetworkChuck’s blogging workflow resonates with me because it’s built for efficiency and creativity. Here’s the pipeline he described—and what I plan to adapt:&lt;/p&gt;
@@ -49,6 +49,140 @@ I’ve been using digital tools like Notion and Obsidian to manage my projects, 
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Solving Problems with Code&lt;/strong&gt;: Python scripts to manage image syncing and other customizations make the process even more tailored to my needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;setting-up-your-own-blog&#34;&gt;Setting Up Your Own Blog&lt;/h3&gt;
+&lt;p&gt;Inspired by NetworkChuck’s technical workflow, I want to share how you can set up your own blog from start to finish. Here’s the pipeline I’ve adapted and what you’ll need to get started.&lt;/p&gt;
+&lt;h4 id=&#34;step-1-setting-up-hugo&#34;&gt;Step 1: Setting Up Hugo&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Install Hugo&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://github.com/git-guides/install-git&#34;&gt;Git&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://go.dev/dl/&#34;&gt;Go&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verify Hugo is installed correctly by running:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Create a New Hugo Site&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create your new site by running:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site your-site-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Change into the new directory:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd your-site-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Download a Hugo Theme&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Find a theme you like from &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo Themes&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install the theme, ideally as a Git submodule:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init
+git submodule add https://github.com/theme-author/theme-name.git themes/theme-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Adjust Hugo Settings&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open your configuration file (&lt;code&gt;config.toml&lt;/code&gt;) and edit it according to the theme&amp;rsquo;s documentation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add basic settings like &lt;code&gt;baseurl&lt;/code&gt;, &lt;code&gt;languageCode&lt;/code&gt;, and &lt;code&gt;theme&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;step-2-syncing-obsidian-to-hugo&#34;&gt;Step 2: Syncing Obsidian to Hugo&lt;/h4&gt;
+&lt;p&gt;I draft my blog posts in Obsidian. To move your posts from Obsidian to Hugo, you can use a simple script or a command-line tool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Windows Users&lt;/strong&gt;: Use &lt;code&gt;robocopy&lt;/code&gt; to sync:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;robocopy &amp;#34;sourcepath&amp;#34; &amp;#34;destinationpath&amp;#34; /mir
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Mac/Linux Users&lt;/strong&gt;: Use &lt;code&gt;rsync&lt;/code&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rsync -av --delete &amp;#34;sourcepath&amp;#34; &amp;#34;destinationpath&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;step-3-automating-image-handling-with-python&#34;&gt;Step 3: Automating Image Handling with Python&lt;/h4&gt;
+&lt;p&gt;To transfer images referenced in your Markdown files, use the following Python script to ensure all your images are moved to Hugo&amp;rsquo;s &lt;code&gt;static/images&lt;/code&gt; directory and properly linked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Script&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import os
+import re
+import shutil
+
+# Paths (using raw strings to handle Windows backslashes correctly)
+posts_dir = r&amp;#34;C:\Users\YourUsername\Documents\YourBlog\content\posts&amp;#34;
+attachments_dir = r&amp;#34;C:\Users\YourUsername\Documents\Obsidian\Attachments&amp;#34;
+static_images_dir = r&amp;#34;C:\Users\YourUsername\Documents\YourBlog\static\images&amp;#34;
+
+# Step 1: Process each markdown file in the posts directory
+for filename in os.listdir(posts_dir):
+    if filename.endswith(&amp;#34;.md&amp;#34;):
+        filepath = os.path.join(posts_dir, filename)
+
+        with open(filepath, &amp;#34;r&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) as file:
+            content = file.read()
+
+        # Step 2: Find all image links in the format ![Image Description](/images/image.png)
+        images = re.findall(r&amp;#39;\[\[([^]]*\.png)\]\]&amp;#39;, content)
+
+        # Step 3: Replace image links and ensure URLs are correctly formatted
+        for image in images:
+            image_cleaned = image.strip()
+            markdown_image = f&amp;#34;![Image Description](/images/{image_cleaned.replace(&amp;#39; &amp;#39;, &amp;#39;%20&amp;#39;)})&amp;#34;
+            content = content.replace(f&amp;#34;[[{image}]]&amp;#34;, markdown_image)
+
+            # Step 4: Copy the image to the Hugo static/images directory if it exists
+            image_source = os.path.join(attachments_dir, image_cleaned)
+            if os.path.exists(image_source):
+                shutil.copy(image_source, static_images_dir)
+            else:
+                print(f&amp;#34;Image not found at: &amp;#39;{image_source}&amp;#39;&amp;#34;)
+
+        # Step 5: Write the updated content back to the markdown file
+        with open(filepath, &amp;#34;w&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) as file:
+            file.write(content)
+
+print(&amp;#34;Markdown files processed and images copied successfully.&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;step-4-version-control-with-github&#34;&gt;Step 4: Version Control with GitHub&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Initialize a Git Repository&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to your Hugo site directory and initialize a Git repository:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add your remote repository:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote add origin https://github.com/yourusername/yourrepo.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Push Your Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Stage and commit your changes:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git add .
+git commit -m &amp;#34;Initial commit&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Push to GitHub:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;step-5-hosting-your-blog&#34;&gt;Step 5: Hosting Your Blog&lt;/h4&gt;
+&lt;p&gt;To host your blog, choose a platform that supports static sites. Many Hugo users opt for platforms like Netlify, Vercel, or GitHub Pages for their simplicity and seamless integration with Git.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test Your Site&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Run the Hugo server locally to preview your changes:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -t theme-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open your browser and navigate to &lt;code&gt;http://localhost:1313&lt;/code&gt; to see your blog in action.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
@@ -77,6 +211,17 @@ I’ve been using digital tools like Notion and Obsidian to manage my projects, 
       <guid>/posts/a-new-note/</guid>
       <description>&lt;p&gt;testing to see what this does&lt;/p&gt;</description>
       <content>&lt;p&gt;testing to see what this does&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/were-live/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/were-live/</guid>
+      <description>&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241202005545.png&#34;&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241202005545.png&#34;&gt;&lt;/p&gt;
 </content>
     </item>
     
