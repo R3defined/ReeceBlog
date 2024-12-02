@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal</title>
+    <link>/</link>
+    <description>Recent content on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Blog.. Because Why Not</title>
+      <link>/posts/my-blog..-because-why-not/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/my-blog..-because-why-not/</guid>
+      <description>&lt;h3 id=&#34;why-i-reece-am-starting-a-blog-in-2024&#34;&gt;Why I, Reece, Am Starting a Blog in 2024&lt;/h3&gt;
+&lt;p&gt;Recently, I came across a video by NetworkChuck titled &lt;em&gt;I Started a Blog… in 2024 (Why You Should Too)&lt;/em&gt;, and it sparked a realization about how impactful blogging could be—not just as a platform for sharing ideas but as a personal and professional growth tool. Coupled with insights from &lt;em&gt;Building a Second Brain&lt;/em&gt; by Tiago Forte, I now see blogging as more than just content creation; it’s an opportunity to organize, refine, and express my thoughts in a way that creates value for myself and others.&lt;/p&gt;</description>
+      <content>&lt;h3 id=&#34;why-i-reece-am-starting-a-blog-in-2024&#34;&gt;Why I, Reece, Am Starting a Blog in 2024&lt;/h3&gt;
+&lt;p&gt;Recently, I came across a video by NetworkChuck titled &lt;em&gt;I Started a Blog… in 2024 (Why You Should Too)&lt;/em&gt;, and it sparked a realization about how impactful blogging could be—not just as a platform for sharing ideas but as a personal and professional growth tool. Coupled with insights from &lt;em&gt;Building a Second Brain&lt;/em&gt; by Tiago Forte, I now see blogging as more than just content creation; it’s an opportunity to organize, refine, and express my thoughts in a way that creates value for myself and others.&lt;/p&gt;
+&lt;p&gt;Here’s why I’m diving into this and how NetworkChuck’s approach inspired my plan.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;the-power-of-a-second-brain&#34;&gt;The Power of a Second Brain&lt;/h4&gt;
+&lt;p&gt;Tiago Forte’s concept of a &amp;ldquo;second brain&amp;rdquo; is transformative. It emphasizes capturing, organizing, and distilling information so it’s always at your fingertips when you need it. NetworkChuck highlights a key takeaway: &lt;strong&gt;&amp;ldquo;Your mind is for having ideas, not holding them.&amp;rdquo;&lt;/strong&gt;
+!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Screenshot2024-12-012048571.png&#34;&gt;
+I’ve been using digital tools like Notion and Obsidian to manage my projects, tasks, and ideas. These tools already serve as my second brain, helping me stay organized and focused. Blogging is the natural next step—taking the distilled knowledge from my second brain and sharing it with the world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;expressing-ideas-the-missing-link&#34;&gt;Expressing Ideas: The Missing Link&lt;/h4&gt;
+&lt;p&gt;For the past year, I’ve been building systems, solving technical challenges, and exploring new concepts, but one thing has been missing: &lt;strong&gt;expression.&lt;/strong&gt; While I’ve written notes, created workflows, and even built strategies, most of my work stays within my own ecosystem. Blogging will allow me to step out of that bubble, refine my ideas further, and share them with a broader audience.&lt;/p&gt;
+&lt;p&gt;As Chuck said in his video, &amp;ldquo;We only know what we make, and it’s only by sharing those ideas that we find out what’s valuable.&amp;rdquo; That hit home for me. I want to take the lessons I’m learning—whether in IT, business, or life—and turn them into something actionable and meaningful for others.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;building-a-legacy&#34;&gt;Building a Legacy&lt;/h4&gt;
+&lt;p&gt;I’m not just starting this blog for the public; I’m doing it for my family, friends, and future generations. Blogging will help me document my journey, share my perspective, and leave behind something tangible. Whether it’s insights about tech, reflections on life as an entrepreneur, or personal interests like blockchain, fitness, and trading, my blog will serve as a dynamic record of who I am and what I value.&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Screenshot2024-12-01222726.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;inspired-by-networkchucks-technical-workflow&#34;&gt;Inspired by NetworkChuck’s Technical Workflow&lt;/h4&gt;
+&lt;p&gt;NetworkChuck’s blogging workflow resonates with me because it’s built for efficiency and creativity. Here’s the pipeline he described—and what I plan to adapt:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Drafting in Obsidian&lt;/strong&gt;: Using Obsidian for seamless note-taking and drafting blog posts feels like a perfect fit. It’s already part of my daily workflow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Automating with Hugo&lt;/strong&gt;: Transforming markdown files into beautiful websites with Hugo appeals to my love for automation and clean design.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Version Control with GitHub&lt;/strong&gt;: Pushing blog content to GitHub introduces version control, collaboration opportunities, and a sense of structure to the process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Streamlined Hosting&lt;/strong&gt;: Leveraging a hosting provider for automated deployment ensures that my ideas are live with minimal manual effort.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Solving Problems with Code&lt;/strong&gt;: Python scripts to manage image syncing and other customizations make the process even more tailored to my needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;my-blogging-mission&#34;&gt;My Blogging Mission&lt;/h4&gt;
+&lt;p&gt;Starting this blog isn’t about becoming an internet influencer or creating viral content. It’s about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clarity&lt;/strong&gt;: Turning scattered ideas into structured content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Legacy&lt;/strong&gt;: Leaving behind a record of my thoughts and experiences for family and future generations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connection&lt;/strong&gt;: Sharing insights that might resonate with or help others in their own journeys.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exploration&lt;/strong&gt;: Discovering what’s truly valuable by expressing and iterating on my ideas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;whats-next&#34;&gt;What’s Next&lt;/h4&gt;
+&lt;p&gt;The plan is simple: start where I am, with the tools I have, and let the process evolve. I’ll use Obsidian as my blogging hub, integrate automation with Hugo and GitHub, and publish regularly. Each post will be a small step toward refining my voice and building a repository of knowledge.&lt;/p&gt;
+&lt;p&gt;This blog is a reflection of everything I’m learning, experimenting with, and striving to achieve. Whether it’s insights on managing IT systems, building a holding company, or creating a healthier lifestyle, I want my blog to capture the essence of my journey.&lt;/p&gt;
+&lt;p&gt;If you’re thinking about starting a blog, take this as your nudge. Let’s make 2024 the year of expression and connection.&lt;/p&gt;
+&lt;p&gt;Stay tuned for more as I set this into motion!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/a-new-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/a-new-note/</guid>
+      <description>&lt;p&gt;testing to see what this does&lt;/p&gt;</description>
+      <content>&lt;p&gt;testing to see what this does&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
